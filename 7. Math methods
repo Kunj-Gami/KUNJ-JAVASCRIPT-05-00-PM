@@ -1,0 +1,82 @@
+# JavaScript Math Methods
+
+## 1. Constants in Math Object
+
+| Constant       | Description                                 | Example Output          |
+|---------------|---------------------------------------------|-------------------------|
+| `Math.PI`     | Returns the value of π (pi)               | `3.141592653589793`     |
+| `Math.E`      | Euler’s number (base of natural logarithm) | `2.718281828459045`     |
+| `Math.SQRT2`  | Square root of 2                           | `1.4142135623730951`    |
+| `Math.SQRT1_2`| Square root of 1/2                         | `0.7071067811865476`    |
+| `Math.LN2`    | Natural logarithm of 2                    | `0.6931471805599453`    |
+| `Math.LN10`   | Natural logarithm of 10                   | `2.302585092994046`     |
+| `Math.LOG2E`  | Log base 2 of Euler’s number              | `1.4426950408889634`    |
+| `Math.LOG10E` | Log base 10 of Euler’s number             | `0.4342944819032518`    |
+
+## 2. Rounding Methods
+
+| Method             | Description                                    | Example                  |
+|--------------------|--------------------------------|-------------------------|
+| `Math.round(x)`   | Rounds `x` to the nearest integer | `Math.round(4.5) → 5`  |
+| `Math.floor(x)`   | Rounds `x` down to the nearest integer | `Math.floor(4.9) → 4`  |
+| `Math.ceil(x)`    | Rounds `x` up to the nearest integer | `Math.ceil(4.1) → 5`  |
+| `Math.trunc(x)`   | Removes the decimal part (keeps only integer part) | `Math.trunc(4.9) → 4`  |
+
+## 3. Power & Roots
+
+| Method          | Description                            | Example                |
+|----------------|--------------------------------|-------------------------|
+| `Math.pow(x, y)` | Returns `x` raised to the power of `y` (`x^y`) | `Math.pow(2, 3) → 8` |
+| `Math.sqrt(x)`  | Returns the square root of `x`      | `Math.sqrt(25) → 5`  |
+| `Math.cbrt(x)`  | Returns the cube root of `x`        | `Math.cbrt(27) → 3`  |
+
+## 4. Min & Max
+
+| Method              | Description              | Example               |
+|---------------------|--------------------------|------------------------|
+| `Math.min(a, b, c, …)` | Returns the smallest value | `Math.min(4, 1, 7) → 1` |
+| `Math.max(a, b, c, …)` | Returns the largest value  | `Math.max(4, 1, 7) → 7` |
+
+## 5. Random Numbers
+
+| Method         | Description                                | Example                                 |
+|--------------|--------------------------------|-----------------------------------|
+| `Math.random()` | Generates a random number between 0 and 1 | `Math.random() → 0.2756`          |
+| Random in Range | Generates a random number in a given range | `Math.floor(Math.random() * 10) + 1` (1-10) |
+
+## 6. Absolute & Sign
+
+| Method        | Description                                     | Example                 |
+|--------------|--------------------------------|-------------------------|
+| `Math.abs(x)` | Returns the absolute (positive) value of `x` | `Math.abs(-5) → 5`  |
+| `Math.sign(x)` | Returns `1` if positive, `-1` if negative, `0` if zero | `Math.sign(-10) → -1` |
+
+## 7. Trigonometry
+
+| Method        | Description                           | Example                      |
+|--------------|--------------------------------|-----------------------------|
+| `Math.sin(x)` | Returns the sine of `x` (in radians) | `Math.sin(Math.PI/2) → 1`  |
+| `Math.cos(x)` | Returns the cosine of `x` (in radians) | `Math.cos(0) → 1`  |
+| `Math.tan(x)` | Returns the tangent of `x` (in radians) | `Math.tan(Math.PI/4) → 1`  |
+
+## 8. Inverse Trigonometry
+
+| Method        | Description                                | Example                     |
+|--------------|--------------------------------|--------------------------|
+| `Math.asin(x)` | Returns the arcsine of `x` (in radians) | `Math.asin(1) → π/2`  |
+| `Math.acos(x)` | Returns the arccosine of `x`           | `Math.acos(0) → π/2`  |
+| `Math.atan(x)` | Returns the arctangent of `x`          | `Math.atan(1) → π/4`  |
+
+## 9. Logarithms & Exponentials
+
+| Method        | Description                             | Example                  |
+|--------------|--------------------------------|-------------------------|
+| `Math.log(x)` | Returns the natural logarithm (`ln x`) | `Math.log(1) → 0`  |
+| `Math.log10(x)` | Returns the base-10 logarithm         | `Math.log10(100) → 2` |
+| `Math.exp(x)` | Returns `e^x`                          | `Math.exp(1) → 2.718` |
+
+## 10. Hypotenuse Calculation
+
+| Method         | Description                                      | Example                   |
+|--------------|--------------------------------|-------------------------|
+| `Math.hypot(a, b, …)` | Returns the square root of the sum of squares | `Math.hypot(3, 4) → 5` |
